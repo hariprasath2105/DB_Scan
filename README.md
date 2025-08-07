@@ -17,16 +17,16 @@ Detect unusual transactions (possible fraud) based on:
 ```
 DBSCAN_AnomalyDetection/
 │
-├── model.py              # Trains DBSCAN model and saves using pickle
-├── app.py                # Flask application logic
-├── model.pkl             # Saved model and scaler (Pickle format)
+├── model.py          
+├── app.py             
+├── model.pkl          
 ├── templates/
-│   ├── index.html        # Input form page with gradient styling
-│   └── result.html       # Result display page
+│   ├── index.html       
+│   └── result.html     
 ├── static/
-│   └── style.css         # Custom CSS styles
-├── dataset.csv           # (Optional) Sample transaction data used
-└── README.md             # This file
+│   └── style.css         
+├── dataset.csv         
+└── README.md            
 ```
 
 ---
@@ -94,8 +94,23 @@ Then open `http://127.0.0.1:5000` in your browser.
 
 ---
 
-## 🧠 Future Improvements
+## Input
 
-- Add real-time anomaly visualization
-- Integrate database for transaction logging
-- Use advanced anomaly detection methods (e.g., Isolation Forest, Autoencoders)
+<img width="517" height="431" alt="image" src="https://github.com/user-attachments/assets/48ac410f-7caf-4086-8374-33e709784d91" />
+
+---
+## Output 
+
+<img width="517" height="431" alt="image" src="https://github.com/user-attachments/assets/791031e1-0f89-446c-b4f0-72d7215ec93f" />
+
+---
+## 🙋‍♂️ Author
+
+**Hari Prasath S**  
+[GitHub Profile](https://github.com/hariprasath2105)
+
+---
+
+## 📘 License
+
+This project is open source and free to use.
