@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>🔍 Prediction Result</h2>
+        <p><strong>Transaction Amount:</strong> ₹{{ amount }}</p>
+        <p><strong>Transaction Time:</strong> {{ time }} hrs</p>
+        <h3>{{ result }}</h3>
+        <a href="/">Try Again</a>
+    </div>
+</body>
+</html>

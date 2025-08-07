@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banking Anomaly Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>🧾 Banking Transaction Anomaly Detection</h2>
+        <form action="/predict" method="post">
+            <label>Transaction Amount (₹):</label>
+            <input type="number" name="amount" step="any" required><br>
+            <label>Transaction Time (24h):</label>
+            <input type="number" name="time" step="any" required><br>
+            <input type="submit" value="Detect">
+        </form>
+    </div>
+</body>
+</html>
